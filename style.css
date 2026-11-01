@@ -566,3 +566,23 @@ body {
   margin-top:8px;
 
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.galerie-imagini,
+.galerie-imagini2,
+.galerie-imagini3,
+.galerie-imagini4,
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
