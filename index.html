@@ -3,45 +3,303 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Poluarea aerului și a solului</title>
+  <title>Poluarea aerului, apei și a solului</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
- 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg" id="bg">
-        <div class="bg-img"></div>
-    </div>
-    <header class="top-info">
-        <p class="school">Școala Gimnazială Iernut</p>
-        <p class="members">
-            <span>Andreiu Mara</span>
-            <span>Mareș Nicola</span>
-            <span>Natea Delia</span>
-            <span>Sonica Rareș</span>
-            <span>Trandafir Iulia</span>
-        </p>
+  <div class="bg" id="bg">
+    <div class="bg-img"></div>
+    <div class="bg-img2" id="bg-img2"></div>
+    <div class="bg-img3" id="bg-img3"></div>
+    <div class="bg-img4" id="bg-img4"></div>
+    <div class="bg-img5" id="bg-img5"></div>
+    <div class="bg-img6" id="bg-img6"></div>
+  </div>
 
-    </header>
+  <header class="top-info">
+    <p class="school">Școala Gimnazială Iernut</p>
+    <p class="members">
+      <span>Andreiu Mara</span>
+      <span>Mareș Nicola</span>
+      <span>Natea Delia</span>
+      <span>Sonica Rareș</span>
+      <span>Trandafir Iulia</span>
+    </p>
+  </header>
 
-    <section class="hero" id="hero">
+  <section class="hero" id="hero">
+    <div class="hero-text" id="hero-text">
       <blockquote class="quote">
         <p id="quote-text">„Sunt doar o persoană, nu pot să schimb nimic.”</p>
-      <footer id="quote-author">— aprox. 6 miliarde de oameni</footer>
-      </blockquote>  
-   
+        <footer id="quote-author">— aprox. 6 miliarde de oameni</footer>
+      </blockquote>
 
-    
-</section>
+      <p class="after-quote" id="after-quote">
+        O singură voce poate părea silențioasă, dar când miliarde gândesc la fel, scuza devine zidul care oprește orice progres.
+      </p>
+    </div>
+  </section>
 
- <main class="content">
+  <main class="content">
     <section class="reveal">
-      <h2>Poluarea aerului și a solului</h2>
-      <p>Aici va veni introducerea proiectului.</p>
+      <h2>Ce este poluarea?</h2>
+      <p>Poluarea reprezintă contaminarea mediului înconjurător cu materiale sau substanțe care afectează negativ sănătatea umană, ecosistemele și echilibrul natural al planetei.</p>
+      <p>Poluarea ca fenomen chimic înseamnă că substanțele curate din natură se amestecă cu substanțele toxice produse de oameni și dau naștere unor reacții chimice periculoase.</p>
+    </section>
+
+    <section class="reveal">
+      <h2>Efectele generale ale poluării</h2>
+      <p>Poluarea nu rămâne într-un singur loc; ea călătorește și ne afectează direct viața în trei moduri principale:</p>
+      <ul>
+        <li><strong>Ne strică sănătatea:</strong>
+          <ul>
+            <li>Aerul murdar ne intră în plămâni și ne provoacă tuse, astm sau boli grave de inimă.</li>
+            <li>Substanțele toxice (cum sunt plumbul sau mercurul) ajung în apa pe care o bem sau în mâncare și pot provoca boli incurabile.</li>
+          </ul>
+        </li>
+        <li><strong>Schimbă vremea de pe planetă:</strong>
+          <ul>
+            <li>Gazele poluante se adună în atmosferă ca o pătură invizibilă în jurul Pământului. Această pătură ține căldura blocată dedesubt (efectul de seră), ceea ce duce la veri mult mai fierbinți, topirea ghețarilor, secete mari sau furtuni violente.</li>
+          </ul>
+        </li>
+      </ul>
     </section>
   </main>
 
-  <script src="script.js"></script>
+  
+  <div class="galerie-imagini">
+    <div class="poluareApa">
+      <img src="aerApa.jpg">
+      <p>Apă poluată de plastic</p>
+    </div>
+
+    <div class="poluarePlaneta">
+      <img src="aerPlaneta.jpg">
+      <p>Planeta noastră afectată de poluare</p>
+    </div>
+  </div>
+
+  <div class="container-poluare">
+
+  <h2 class="titlu-sectiune titlu-aer reveal">Aerul</h2>
+
+  <!-- cadranul 1: ce este aerul  -->
+  <div class="card-poluare reveal start-aer">
+    <h2>Compoziția Aerului</h2>
+    <p><strong>Ce este aerul?</strong> Este amestecul de gaze care alcătuiește straturile inferioare ale atmosferei Pământului.</p>
+    <p><strong>Compoziția chimică (după volum):</strong></p>
+    <ul>
+      <li>78% Azot</li>
+      <li>20% Oxigen</li>
+      <li>0,9% Argon</li>
+      <li>0,03% Dioxid de carbon</li>
+      <li>Alte urme: metan, heliu, dioxid de sulf, neon și hidrogen.</li>
+    </ul>
+  </div>
+
+  <!-- cadranul 2: cauzele poluarii aerului -->
+  <div class="card-poluare reveal">
+    <h2>Cauzele Poluării Aerului</h2>
+    <ul>
+      <li><strong>Combustibili fosili:</strong> Arderea lor afectează sănătatea și respirația.</li>
+      <li><strong>Industria:</strong> Elimină substanțe nocive (dioxid de azot și de sulf), provocând boli cronice.</li>
+      <li><strong>Incendiile de vegetație:</strong> Produc fum și substanțe chimice dăunătoare.</li>
+      <li><strong>Transportul:</strong> Sursă majoră în orașe prin emisii de monoxid de carbon și oxizi de azot.</li>
+      <li><strong>Agricultura:</strong> Contribuie și ea la degradarea calității aerului.</li>
+    </ul>
+  </div>
+
+  <!-- cadranul 3: ploaia acida iernut -->
+  <div class="card-poluare reveal">
+    <h2>Ce este ploaia acidă?</h2>
+    <p>Este o formă de poluare ce include precipitații cu compuși de azot și sulf. Are consecințe grave asupra oamenilor, apei, aerului și solului.</p>
+    <p>Majoritatea peștilor nu pot trăi în medii acide, plantele se usucă, iar doar unele zone ale Pământului au capacitatea naturală de a neutraliza această aciditate.</p>
+    <strong>Exemplu local: Zona Iernut</strong>
+    <p>Fenomenul ploilor acide nu este doar o problemă globală, ci și una care a afectat direct zona noastră în trecut. Acum mulți ani, emisiile industriale locale au dus la degradarea treptată a unor păduri din jur și la afectarea calității solului, un semnal de alarmă care a dus la măsuri mai stricte de protecție a mediului.</p>
+  </div>
+
+  <!-- cadranul 4: stratul de ozon  -->
+  <div class="card-poluare reveal">
+    <h2>Stratul de Ozon și Poluarea Locală</h2>
+    <p>Pământul este înconjurat de un strat de ozon. Substanțele chimice produse de om, în special <strong>CFC-urile</strong> (folosite în refrigerare și aerosoli), distrug moleculele de ozon.</p>
+    <p><strong>Exemple din jurul nostru:</strong> Traficul rutier, încălzirea locuințelor și activitatea industrială.</p>
+  </div>
+
+  <div class="galerie-imagini4">
+  <div class="poluareIndustriala reveal">
+    <img src="poluareIndustrial.jpg">
+    <p>Poluarea industrială a aerului</p>
+  </div>
+
+    <div class="poluareMasini reveal">
+    <img src="poluareMasini.jpg">
+    <p>Poluarea aerului de către mașini</p>
+  </div>
+</div>
+
+
+  <!-- NOU: Subtitlu apă -->
+  <h2 class="titlu-sectiune titlu-apa reveal">Apa</h2>
+
+  <!-- cadranul 5: ce este apa si poluarea -->
+  <div class="card-poluare reveal start-apa">
+    <h2>Ce este apa și poluarea apei?</h2>
+    <p><strong>Ce este apa?</strong> Un lichid inodor, insipid și incolor (H<sub>2</sub>O), substanță absolut indispensabilă vieții, care formează hidrosfera Pământului.</p>
+    <p><strong>Ce reprezintă poluarea apei?</strong> Reprezintă introducerea substanțelor toxice sau a altor elemente care afectează utilizarea benefică a apei.</p>
+  </div>
+
+  <!-- cadranul 6: tipuri de poluare a apei -->
+  <div class="card-poluare reveal">
+    <h2>Tipuri de poluare a apei</h2>
+    <ul>
+      <li><strong>Poluare marină:</strong> deșeuri industriale, agricole și rezidențiale, particule.</li>
+      <li><strong>Poluare chimică:</strong> dioxid de carbon, oxizi de azot, mercur, plumb.</li>
+      <li><strong>Poluare termală:</strong> eliberarea apei foarte reci în râurile mai calde.</li>
+      <li><strong>Poluare biologică:</strong> introducerea organismelor acvatice invazive.</li>
+    </ul>
+  </div>
+
+  <!-- cadranul 7: Exemple, Măsuri și Rolul Apei -->
+  <div class="card-poluare reveal">
+    <h2>Surse, Măsuri și Rolul Apei</h2>
+    <p><strong>Exemple de poluare din jurul nostru:</strong></p>
+    <ul>
+      <li><strong>Casnice:</strong> ulei alimentar uzat</li>
+      <li><strong>Agricole:</strong> îngrășăminte chimice</li>
+      <li><strong>Industriale:</strong> substanțe toxice</li>
+      <li><strong>Deșeuri:</strong> plastic</li>
+    </ul>
+    <p><strong>Măsuri de prevenire:</strong> Infrastructură modernă, agricultură responsabilă și folosirea produselor ecologice.</p>
+    <p><strong>Rolul important al apei în viața oamenilor:</strong> Menținerea vieții, alimentație și agricultură, economie, industrie, energie, transport și echilibru climatic.</p>
+  </div>
+</div>
+
+<div class="galerie-imagini2">
+  <div class="apaMolecula reveal">
+    <img src="moleculaApa.jpg">
+    <p>Moleculă de apă</p>
+  </div>
+
+  <div class="apaPoluata reveal">
+    <img src="apaPoluata.jpg">
+    <p>Apă poluată de plastic</p>
+  </div>
+</div>
+
+<div class="container-poluare">
+
+  <h2 class="titlu-sectiune titlu-sol reveal">Solul</h2>
+
+  <!-- cadranul 8: substanțele din sol -->
+  <div class="card-poluare reveal start-sol">
+    <h2>Substanțele găsite în sol</h2>
+    <p>Solul este alcătuit din:</p>
+    <ul>
+      <li><strong>Substanțe minerale:</strong> siliciu, calciu, fier, magneziu și potasiu.</li>
+      <li><strong>Substanțe organice:</strong> humus, resturi de plante și animale.</li>
+      <li><strong>Apă și aer.</strong></li>
+    </ul>
+  </div>
+
+  <!-- cadranul 9: tipurile de sol -->
+  <div class="card-poluare reveal">
+    <h2>Tipurile de sol</h2>
+    <p>Principalele tipuri de sol sunt:</p>
+    <ul>
+      <li><strong>Sol nisipos:</strong> conține mult nisip și lasă apa să treacă ușor.</li>
+      <li><strong>Sol argilos:</strong> conține multă argilă și reține apa.</li>
+      <li><strong>Sol calcaros:</strong> conține cantități mari de calciu.</li>
+      <li><strong>Sol cernoziom:</strong> bogat în humus și foarte fertil.</li>
+    </ul>
+  </div>
+
+  <!-- cadranul 10: cum este afectat solul de poluare -->
+  <div class="card-poluare reveal">
+    <h2>Cum este afectat solul de poluare</h2>
+    <p>Solul este poluat prin aruncarea deșeurilor, folosirea pesticidelor, îngrășămintele chimice și activitățile industriale. Poluarea îi reduce fertilitatea și afectează plantele, animalele și oamenii.</p>
+  </div>
+
+  <!-- cadranul 11: efecte chimice asupra solului -->
+  <div class="card-poluare reveal">
+    <h2>Efecte chimice asupra solului</h2>
+    <ul>
+      <li>Modificarea acidității (pH-ului).</li>
+      <li>Acumularea metalelor grele și a substanțelor toxice.</li>
+      <li>Scăderea cantității de substanțe nutritive.</li>
+      <li>Contaminarea apei subterane.</li>
+      <li>Reducerea fertilității solului.</li>
+    </ul>
+  </div>
+
+  <!-- cadranul 12: exemple -->
+  <div class="card-poluare reveal">
+    <h2>Exemple din jurul nostru</h2>
+    <ul>
+      <li>Aruncarea plasticului și a gunoaielor pe câmpuri.</li>
+      <li>Scurgerile de combustibil de la mașini.</li>
+      <li>Folosirea excesivă a pesticidelor în agricultură.</li>
+      <li>Depozitarea necorespunzătoare a deșeurilor.</li>
+      <li>Poluarea solului din apropierea fabricilor.</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="galerie-imagini3">
+  <div class="compozitieSol reveal">
+    <img src="compozitieSol.jpg">
+    <p>Compoziția solului</p>
+  </div>
+
+  <div class="solPoluat reveal">
+    <img src="solPoluat.jpg">
+    <p>Sol poluat</p>
+  </div>
+</div>
+
+<!-- concluzie -->
+<div class="container-poluare">
+
+  
+  <h2 class="titlu-sectiune titlu-final reveal">Concluzie</h2>
+
+  <div class="card-poluare reveal">
+    <h2>Viitorul planetei este în mâinile noastre</h2>
+    <p>Pământul ne oferă tot ceea ce avem nevoie pentru a trăi, însă acțiunile noastre l-au adus într-un punct critic. Alegerea dintre un viitor verde, curat și unul dominat de consecințele poluării depinde exclusiv de fiecare dintre noi.</p>
+
+    <!--  rezumat -->
+    <ul>
+      <li><strong>Aerul</strong> este poluat de combustibili fosili, industrie, transport și incendii, ceea ce duce la ploi acide, efect de seră și distrugerea stratului de ozon.</li>
+      <li><strong>Apa</strong> este afectată de deșeuri, substanțe chimice și plastic, iar fără apă curată viața nu este posibilă.</li>
+      <li><strong>Solul</strong> își pierde fertilitatea din cauza pesticidelor, a deșeurilor și a activităților industriale.</li>
+    </ul>
+
+    <p>Reducerea deșeurilor, protejarea apelor, adoptarea unui transport sustenabil și grija față de natură nu sunt doar opțiuni, ci o <strong>necesitate vitală</strong>. Ocrotind mediul înconjurător, ne ocrotim propriile vieți și le asigurăm generațiilor viitoare o planetă pe care să poată trăi sănătoase.</p>
+    <p style="text-align: center; margin-top: 20px; font-style: italic; color: #f2c14e;">„Niciodată nu este prea târziu pentru a face o schimbare.”</p>
+  </div>
+
+  <!-- bibliografie -->
+  <div class="card-poluare reveal" style="margin-top: 40px;">
+    <h2>Bibliografie și Surse de Informare</h2>
+    <p>Informațiile prezentate în cadrul acestui proiect au fost documentate din următoarele surse:</p>
+    <ul>
+      <li><strong>Manualul de Chimie / Geografie</strong> – Surse educaționale pentru studiul compoziției atmosferei și a factorilor de mediu.</li>
+      <li><strong>Studii de mediu privind impactul industrial</strong> – Documentări locale referitoare la calitatea aerului și a apei în zona Mureș / Iernut.</li>
+      <li><strong>Articole științifice și enciclopedii online</strong> – Informații despre fenomenele globale (efectul de seră, ploile acide, distrugerea stratului de ozon).</li>
+      <li><strong>Imagini și resurse vizuale</strong> – Arhive educaționale și platforme open-source pentru ilustrații.</li>
+    
+  
+      <li><strong>Direcția de Sănătate Publică Ilfov:</strong> Poluarea chimică și impactul asupra sănătății.</li>
+      <li><strong>Revista Agrimedia:</strong> Proprietăți chimice și fertilitatea solului.</li>
+      <li><strong>Platforme de mediu și știri:</strong> <a href="https://stratos.ro/" target="_blank" style="color: #f2c14e;">stratos.ro</a> și <a href="https://green-report.ro/" target="_blank" style="color: #f2c14e;">green-report.ro</a>.</li>
+      <li><strong>Asistență tehnică și documentare:</strong> Google AI și Gemini.</li>
+    </ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
