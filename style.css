@@ -566,3 +566,31 @@ body {
   margin-top:8px;
 
 }
+
+@media(max-width: 768px) {
+  body {
+    padding:10px;
+    dont-size:16px;
+  }
+
+  .container, .galerie-imagini, .galerie-imagini2, .galerie-imagini3, .galerie-imagini4, main, section {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .galerie-imagini,
+  .galerie-imagini2,
+  .galerie-imagini3,
+  .galerie-imagini4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+}
